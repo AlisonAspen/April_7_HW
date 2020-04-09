@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+     <head>
+          <meta charset="utf-8">
+          <title>Tasty Ramen</title>
+          <style type="text/css">
+               *{
+                    margin: 0px;
+                    padding: 0px;
+               }
+               div {
+                    padding: 10px;
+               }
+               p {
+                    font-family: "Helvetica";
+                    font-size: 24px;
+               }
+               .flexWrapper {
+                    width: 100%;
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+               }
+               #contentDiv1 {
+                    width: 40%;
+                    padding: 25px;
+               }
+               #contentDiv2 {
+                    width: 40%;
+                    padding: 25px;
+               }
+               button {
+                    width: 25%;
+                    text-align: center;
+                    font-family: "Helvetica";
+                    font-size: 20px;
+                    margin: 50px;
+
+               }
+               #holder1 {
+                    width: 25%;
+                    margin: 50px;
+                    font-size: 20px;
+                    margin: 50px;
+                    text-align: center;
+               }
+               #holder2 {
+                    width: 25%;
+                    margin: 50px;
+                    font-size: 20px;
+                    margin: 50px;
+                    text-align: center;
+               }
+               #holder3 {
+                    width: 25%;
+                    margin: 50px;
+                    font-size: 20px;
+                    margin: 50px;
+                    text-align: center;
+               }
+          </style>
+     </head>
+     <body>
+          <div class="flexWrapper">
+               <div id="contentDiv1">
+                    <p>I really miss good ramen </p>
+                    <p>Wow here is a p tag!</p>
+                    <p>I cannot wait to be able to go to a restaurant again</p>
+                    <p>Also, what does it take to find good chinese food in the Midwest?</p>
+               </div>
+               <div id="contentDiv2">
+                    <p>Quarantine is an awkward time</p>
+                    <p>All I've done is go for walks and work on school</p>
+                    <p>And maybe sometimes go to the store for snacks</p>
+                    <p>And I've also been making that foamy coffee that is popular on tiktok (it's pretty good, try adding cinnamon!)</p>
+                    <p>Here in Wisconsin, everyone is going crazy from staying inside</p>
+                    <p>Whenever I go outside for a walk, it feels as if the entire neighborhood is out as well</p>
+               </div>
+          </div>
+          <div class="flexWrapper">
+               <button type="button" name="button1" onclick="calculateElements()">How Many Elements?</button>
+               <button type="button" name="button2" onclick="firstIdChildren()">Elements in Div 1?</button>
+               <button type="button" name="button2" onclick="secondIdChildren()">Elements in Div 2?</button>
+          </div>
+          <div class="flexWrapper">
+               <div id="holder1">
+
+               </div>
+               <div id="holder2">
+
+               </div>
+               <div id="holder3">
+
+               </div>
+          </div>
+          <script src="apr7JS.js"></script>
+     </body>
+</html>
